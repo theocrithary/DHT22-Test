@@ -9,10 +9,6 @@
  *
  * Change DHT_SAMPLE_TIME to vary the frequency of samples
  *
- * Scott Piette (Piette Technologies) scott.piette@gmail.com
- *      January 2014        Original Spark Port
- *      October 2014        Added support for DHT21/22 sensors
- *                          Improved timing, moved FP math out of ISR
  */
 
 // AM2302(DHT22) Sensor Library
@@ -20,7 +16,7 @@
 
 // DHT parameters
 #define DHTTYPE  DHT22                 // Sensor type DHT11/21/22/AM2301/AM2302
-#define DHTPIN   D1         	       // Digital pin for communications
+#define DHTPIN   D3         	       // Digital pin for communications
 #define DHT_SAMPLE_INTERVAL   20000    // Sample every twenty seconds
 
 // Variables
