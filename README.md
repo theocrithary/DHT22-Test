@@ -13,4 +13,4 @@ I'm running a 10K resistor between pin 2 and a second 3.3V power source.
 
 See below wiring image...
 
-![Alt text](/images/DHT22 wiring.png?raw=true "Optional Title")
+![Alt text](/images/DHT22-wiring.png?raw=true "Optional Title")
